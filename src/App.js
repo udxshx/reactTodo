@@ -17,8 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='font-extrabold'>Todo App</h1>
-      <div className='flex flex-col border-2 w-[500px] mx-auto mt-20'>
+      <h1 className='font-extrabold justify-center items-center'>Todo App</h1>
+      <div className='flex flex-col border-2 w-[500px] justify-center mx-auto mt-20'>
         {todos.map((todo, index) => (
           <Card key={index} todo={todo} />
         ))}
