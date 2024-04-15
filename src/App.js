@@ -27,7 +27,7 @@ function App() {
             type="text" 
             value={todoInput} 
             onChange={(e) => setTodoInput(e.target.value)} 
-            placeholder="Enter your todo item" 
+            placeholder="Please enter your todo item" 
             className="p-2 border border-gray-300 rounded-md mr-3" 
           />
           <button 
